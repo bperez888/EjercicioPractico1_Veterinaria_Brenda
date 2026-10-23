@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instalaciones</title>
+<style>
+  html, body { margin: 0; height: 100%; }
+  body {
+    display: flex; align-items: center; justify-content: center; flex-direction: column;
+    background: linear-gradient(135deg, #fdf6ec 0%, #bfe6df 100%);
+    font-family: "Segoe UI", system-ui, Arial, sans-serif; color: #1d4e5f; text-align: center;
+    overflow: hidden;
+  }
+  svg { width: 46%; max-width: 230px; }
+  h1 { margin: .4rem 0 0; font-size: clamp(1.1rem, 4vw, 1.8rem); }
+  p { margin: .2rem 0 0; font-size: clamp(.8rem, 2.4vw, 1.05rem); opacity: .8; }
+  .huella { position: absolute; fill: #2a9d8f; opacity: .18; }
+</style>
+</head>
+<body>
+  <svg class="huella" style="top:8%;left:6%;width:60px" viewBox="0 0 64 64"><use href="#paw"/></svg>
+  <svg class="huella" style="bottom:10%;right:8%;width:80px;transform:rotate(20deg)" viewBox="0 0 64 64"><use href="#paw"/></svg>
+  <svg class="huella" style="top:14%;right:14%;width:44px;transform:rotate(-25deg)" viewBox="0 0 64 64"><use href="#paw"/></svg>
+  <svg class="huella" style="bottom:12%;left:12%;width:50px;transform:rotate(-15deg)" viewBox="0 0 64 64"><use href="#paw"/></svg>
+
+  <svg viewBox="0 0 64 64" aria-hidden="true">
+    <defs>
+      <g id="paw">
+        <ellipse cx="32" cy="42" rx="14" ry="11"/>
+        <ellipse cx="14" cy="26" rx="6" ry="8"/>
+        <ellipse cx="26" cy="16" rx="6" ry="8.5"/>
+        <ellipse cx="38" cy="16" rx="6" ry="8.5"/>
+        <ellipse cx="50" cy="26" rx="6" ry="8"/>
+      </g>
+    </defs>
+    <use href="#paw" fill="#e76f51"/>
+  </svg>
+  <h1>Cuidamos a tu mascota</h1>
+  <p>Consultorios comodos, tecnología moderna y mucho cariño</p>
+</body>
+</html>

@@ -1,8 +1,0 @@
-target/
-.idea/
-*.iml
-.vscode/
-nbproject/
-nb-configuration.xml
-nbactions.xml
-.DS_Store
